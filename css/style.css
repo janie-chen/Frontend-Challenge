@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 375px;
+  max-height: 677px;
+  font-size: 16px;
+  font-family: "SF Pro Display";
+}
+
+.arrow-left {
+  position: absolute;
+  top: 70%;
+  transform: translateY(-50%);
+  left: 5%;
+  font-size: 10px;
+}
+
+.fa-chevron-left{
+  color: #007AFF;
+}
+
+.container {
+  background-color: #F9F9F9;
+  opacity: .9;
+  position: fixed;
+  height: 64px;
+
+}
+
+#city {
+  font-size: 17px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+#edit-button {
+  color: #007AFF;
+  position: absolute;
+  top: 75%;
+  transform: translateY(-50%);
+  right: 3%;
+}
+
+.map {
+  background-origin: border-box;
+  padding-top: 64px;
+  position: fixed;
+}
+
+.bus-list {
+  opacity: .9;
+  padding-top: 380px;
+}
+
+#left {
+    float: left;
+    width: 140px;
+    padding-top: 16px;
+    padding-left: 16px;
+    background-color: #F7F5F6;
+}
+
+#middle {
+    background-color: #F7F5F6;
+    padding-top: 16px;
+    margin: 0px;
+
+}
+
+.box, .box1 {
+  padding-top: 17.5px;
+  padding-bottom: 17.5px;
+}
+
+h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+h4{
+  font-size: 15px;
+  color: #8C8C8C;
+}
