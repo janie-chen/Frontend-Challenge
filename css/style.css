@@ -21,12 +21,11 @@ body {
   color: #007AFF;
 }
 
-.container {
+.navigation-bar {
   background-color: #F9F9F9;
   opacity: .9;
   position: fixed;
   height: 64px;
-
 }
 
 #city {
@@ -47,40 +46,47 @@ body {
 .map {
   background-origin: border-box;
   padding-top: 64px;
+  max-width: 375px;
   position: fixed;
 }
 
-.bus-list {
+.bus-items {
   opacity: .9;
   padding-top: 380px;
 }
 
-#left {
+.bus-list{
+  background-color: #F7F5F6;
+}
+
+.bus-line {
     float: left;
-    width: 140px;
-    padding-top: 16px;
+    width: 100px;
     padding-left: 16px;
-    background-color: #F7F5F6;
 }
 
-#middle {
-    background-color: #F7F5F6;
-    padding-top: 16px;
-    margin: 0px;
-
-}
-
-.box, .box1 {
+.bus-line, .destination, .frequency {
   padding-top: 17.5px;
+}
+
+.frequency {
   padding-bottom: 17.5px;
+  padding-left: 84px;
+  padding-top: 7px;
+  margin-left: 16px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #C8C7CC;
 }
 
 h3 {
   font-size: 17px;
   font-weight: bold;
+  padding-top: 17.5px;
+  padding-left: 16px;
 }
 
-h4{
+.frequency {
   font-size: 15px;
   color: #8C8C8C;
 }
