@@ -26,6 +26,7 @@ body {
   opacity: .9;
   position: fixed;
   height: 64px;
+  z-index: 2;
 }
 
 #city {
@@ -57,11 +58,12 @@ body {
 
 .bus-list{
   background-color: #F7F5F6;
+  z-index: 1;
 }
 
 .bus-line {
     float: left;
-    width: 100px;
+    width: 52px;
     padding-left: 16px;
 }
 
@@ -71,7 +73,7 @@ body {
 
 .frequency {
   padding-bottom: 17.5px;
-  padding-left: 84px;
+  padding-left: 36px;
   padding-top: 7px;
   margin-left: 16px;
   border-bottom-style: solid;
@@ -89,4 +91,11 @@ h3 {
 .frequency {
   font-size: 15px;
   color: #8C8C8C;
+}
+
+#end-of-direction {
+  margin-left: 0;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #C8C7CC;
 }
