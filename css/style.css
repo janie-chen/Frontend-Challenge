@@ -53,7 +53,7 @@ body {
 
 .bus-items {
   opacity: .9;
-  padding-top: 380px;
+  padding-top: 375px;
 }
 
 .bus-list{
@@ -90,11 +90,12 @@ h3 {
 
 .frequency {
   font-size: 15px;
-  color: #8C8C8C;
+  color: #1D5BCD;
 }
 
 #end-of-direction {
   margin-left: 0;
+  padding-left: 52px;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: #C8C7CC;
