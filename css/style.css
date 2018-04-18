@@ -18,7 +18,7 @@ body {
   color: #007AFF;
 }
 
-.left-arrow {
+.fa-chevron-left {
   color: #007AFF;
 }
 
@@ -93,24 +93,45 @@ body {
   padding-top: 40px;
 }
 
-.bus-line {
-    float: left;
-    width: 52px;
-    padding-left: 16px;
+.bus-description {
+  margin-top: 16px;
 }
 
-.bus-line, .destination, .frequency {
-  padding-top: 17.5px;
+.arrow-right {
+  position: absolute;
+  top: 62%;
+  transform: translateY(-50%);
+  font-size: 10px;
+  color: #8C8C8C;
+  left: 345px;
+}
+
+.bus-icon {
+  border-radius: 4px;
+  width: 46px;
+  height: 37px;
+  background-color: #D50BAF;
+  float: left;
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.bus-line {
+  color: #ffffff;
+}
+
+.destination, .frequency {
+  margin-left: 74px;
 }
 
 .frequency {
   padding-bottom: 17.5px;
-  padding-left: 36px;
   padding-top: 7px;
-  margin-left: 16px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #C8C7CC;
+  font-size: 15px;
+  color: #1D5BCD;
 }
 
 h3 {
@@ -120,14 +141,9 @@ h3 {
   padding-left: 16px;
 }
 
-.frequency {
-  font-size: 15px;
-  color: #1D5BCD;
-}
-
 #end-of-direction {
-  margin-left: 0;
-  padding-left: 52px;
+  margin-left: 16px;
+  padding-left: 58px;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: #C8C7CC;
