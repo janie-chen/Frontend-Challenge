@@ -45,7 +45,7 @@ body {
   right: 3%;
 }
 
-.map {
+.bus-map {
   background-origin: border-box;
   padding-top: 64px;
   max-width: 375px;
